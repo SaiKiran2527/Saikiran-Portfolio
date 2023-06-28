@@ -1,0 +1,225 @@
+{
+    "Header.Item1": "About me",
+    "Header.Item2": "Experience",
+    "Header.Item3": "Projects",
+    "Header.Item4": "Contact",
+    "Header.cvBtn": "Resume",
+    "Header.cvName": "Patwari Sai Kiran Professional Resume.pdf",
+    "Banner.Pretitle": "Hello! My name is",
+    "Banner.Description": "I have <span class='underline'>1 year of experience</span> as a <span class='underline'>Software Developer</span> at <span class='underline'>Morgan Stanley</span>. Worked on Full Stack development, used <span class='underline'>Angular</span> for <span class='underline'>frontend</span> and <span class='underline'>Springboot</span> for the <span class='underline'>backend</span>. Gained a beginner level understanding on <span class='underline'>cloud(Azure)</span>. At <span class='underline'>undergrad level</span>, gained some hands-on experience, working on projects in the field of <span class='underline'>Machine Learning</span>.",
+    "Banner.ActionBtn": "Get in touch",
+    "AboutMe.Title": "About me",
+    "AboutMe.Paragraphs": [
+        "From my <span class='underline'>little experience</span>, I have learnt that one can never reach the pinnacle of any tech(especially with tech constantly evolving rapidly), but can only get one step closer everyday with constant and continued efforts put into that particular field. I seek to train every day. I do not want to commit to one particular tech, at this stage(beginning) of my career. Although, AI and Full stack development remain my area of expertise, I want to try out and explore different techs.",
+        "My Software Developer days at Morgan Stanley taught me a lot of things, things outside of Full Stack Development. It really helped me understand, what mindset is required of me, to adapt and contribute to a Global Firm, while meeting the Industry Standards.",
+        "I have always been facsinated by Machine Learning, right from my undergrad. My projects during my undergrad are evident to my interest towards the field. Clearly, AI is the future of the technology and I want to pursue my future in the field of AI.",
+        "Some of the technologies that I have trained and worked on include (but are not limited to):"
+    ],
+    "Experience.Title": "Experience",
+    "Experience.Jobs": [
+        {
+            "Tab": "Morgan Stanley",
+            "Title": "Software Developer",
+            "Date": "May 2021 - present",
+            "Description": [
+                "I worked at Morgan Stanley as a software developer. Basically I was a full stack developer, used Angular for front end and Springboot for backend.",
+
+                "Key Roles and Responsibilities : ",
+                "1. designing : (used a framework called 'wired frame', to design the UI from end-to-end).",
+
+                "Once I get approval on the design next step is developing",
+
+                "2. Developing : (used Angular to create reactive Web pages, which were then integrated to the Springboot backend)",
+                "3. Testing : Once the development is done..next step is testing. I used Karma(default testing tool offered by angular) to perform unit tests and then e2e tests(end-to-end tests). I capture the test cases in a test document.",
+                "4. Deployment : Once the tests are passed, the web application is deployed to Morgan's cloud using Jenkins."           ]
+        },
+
+        {
+            "Tab": "Wiley Mthree",
+            "Title": "Internship",
+            "Date": "Jan 2021 - May 2021",
+            "Description": [
+                "Worked on project - Student Portal Application ( Java, Springboot, MySQL, Angular)",
+                "Trained on Java, Springboot and worked on basic backend projects using them.",
+                "Hands-on experience on Angular, developed full stack POC apps using Angular for frontend and Springboot for backend.",
+                "Worked in groups, to practice agile methodology in Project Management."
+            ]
+        },
+        
+        {
+            "Tab": "Cantilever Labs Pvt Ltd",
+            "Title": "Internship",
+            "Date": "April 2020 - August 2020",
+            "Description": [
+                "Worked on project - Online Car Rental scheme using JDBC (HTML, CSS, Javascript, Java, Tomcat, Mysql)",
+                "Built a web application using Java(DBC), tomcat and Mysql for backend, HTML, CSS and Javascript for frontend.",
+                "Aim of the project is to eliminate the middlemen between the renters and the lenders, allowing a fair, transparent and direct car rental business to take place between them.",
+                "The application allows consists of various types of profiles like renter, lender, admin based on thier role."
+            ]
+        },
+        {
+            "Tab": "Barelogics Pvt Ltd",
+            "Title": "Internship",
+            "Date": "June 2019 - July 2019",
+            "Description": [
+                "Worked on project - Face Recognition using OpenCV (Python, OpenCV), which consisted of 2 parts",
+                "First part, upon execution captures the pictures of the face of the person in front of the camera, along with their name(to be entered by the user) and stores it locally, to train the model.",
+                "Second part, upon execution, opens the camera and scans for faces, identifies (highlights) the faces and displays name of the face, if its match is found in the local database.",
+                "This application fits into any security related use cases with a fairly decent accuracy."
+            ]
+        }
+    ],
+    "FeatureProjects.Title": "Projects that I was a part of",
+    "FeatureProjects.Label": "Featured Project",
+    "FeatureProjects.Projects": [
+        {
+            "Title": "Meet Summariser using NLP",
+            "Description": "• The project takes an audio file(of a meeting) or a text file(of a meeting's transcript) as an input and Summaries the content of the meeting.<br>• Used Similarity Matrix, cosine difference and Google's pagerank algorithm to rank the sentence in the order of thier significance.<br>• Used Flask web development framework to develop the UI and to integrate it with the model.",
+            "imgs": [
+                "assets/images/Meet-Summary.jpeg",
+                "assets/images/school/image2.png"
+            ],
+            "Technologies": [
+                "Python",
+                "Flask",
+                "NLP"
+            ]
+        },
+        {
+            "Title": "Placement Prediction and Data Visualization",
+            "Description": "• Requested collage for the past 10 year's placement related data, normalized, cleaned and pruned the data, finally combining them all to obtain single dataset.<br>• Tried fitting the data into various Classified Machine Learning models like SVM, K-NN, Naive Bayes classifier to build the more accurate model <br>• Built a flask web application, to provide interface for the user, and to display the data visualization plots.",
+            "imgs": [
+                "assets/images/data-visual.jpeg",
+                "assets/images/school/image2.png"
+            ],
+            "Technologies": [
+                "Python",
+                "Flask",
+                "Plotly",
+                "Various supervised ML Algorithms like SVM, K-NN, Naive Bayes classifier"
+            ]
+        },
+        {
+            "Title": "Image Enhancement using GANS",
+            "Description": "• The aim is to enhance the quality of a LR (low resolution) image to a High Resolution using GANS (Generative adversarial network)<br>• Did a comparative analysis of the CNN model with other techniques like Median Filtering, Wiener Fillter to obtain better results.<br>• Created a simple graphical user interface, for the users to interact with our model.",
+            "imgs": [
+                "assets/images/GANS.jpeg",
+                "assets/images/bbm/image2.png"
+            ],
+            "Technologies": [
+                "Python",
+                "Neural Networks",
+                "Pytorch",
+                "TensorFlow"
+            ]
+        },
+        {
+            "Title": " Face Recognition using OpenCV",
+            "Description": " • First part, upon execution captures the pictures of the face of the person in front of the camera, along with their name(to be entered by the user) and stores it locally, to train the model.<br>• Second part, upon execution, opens the camera and scans for faces, identifies (highlights) the faces and displays name of the face, if its match is found in the local database.<br>• This application fits into any security related use cases with a fairly decent accuracy.",
+            "imgs": [
+                "assets/images/Face-Recognition.jpeg"
+            ],
+            "Technologies": [
+                "Python",
+                "OpenCV",
+                "Jupyter Notebook"
+            ]
+        },
+        {
+            "Title": "Stock Prediction using Machine Learning",
+            "Description": "• Trained the machine learning model using Random Forest, adjusted weights and biases to maximize the model's performance.<br>• Dataset of the stocks was taken from Kaggle.<br>• Created a GUI to take inputs and to show the result, using Python.",
+            "imgs": [
+                "assets/images/Stock-Pred.jpeg"
+            ],
+            "demoLink": "",
+            "Technologies": [
+                "Python",
+                "Jupyter Notebook",
+                "various supervised ML algorithms like Decision Tree, Random Forest"
+            ]
+        },
+        {
+            "Title": "Online Car Rental Portal using JDBC",
+            "Description": "• Built a web application using Java(DBC), tomcat and Mysql for backend, HTML, CSS and Javascript for frontend.<br>• Aim of the project is to eliminate the middlemen between the renters and the lenders, allowing a fair, transparent and direct car rental business to take place between them.<br>• The application allows consists of various types of profiles like renter, lender, admin based on thier role.",
+            "imgs": [
+                "assets/images/Car-Rental.jpeg"
+            ],
+            "demoLink": "https://profile.needlemusic.co/bub",
+            "Technologies": [
+                "HTML",
+                "CSS",
+                "Javascript",
+                "Java",
+                "Servlet",
+                "Tomcat",
+                "JDBC",
+                "MySQL Database"
+            ]
+        }
+    ],
+    "OtherProjects.Title": "More personal projects",
+    "OtherProjects.Projects": [
+        {
+            "Title": "My portfolio",
+            "Description": "A portfolio to help you understand my stack-set and background.",
+            "ghLink": "https://github.com/SaiKiran2527/car-rental-scheme",
+            "demoLink": "https://github.com/SaiKiran2527/car-rental-scheme",
+            "Technologies": [
+                "Angular",
+                "Material"
+            ]
+        },
+        {
+            "Title": "Online Car Rental Portal",
+            "Description": "Aim of the project is to eliminate the middlemen between the renters and the lenders, allowing a fair, transparent and direct car rental business to take place between them.",
+            "ghLink": "https://github.com/SaiKiran2527/car-rental-scheme",
+            "demoLink": "https://github.com/SaiKiran2527/car-rental-scheme",
+            "Technologies": [
+                "Angular",
+                "RxJs",
+                "API",
+                "Bootstrap"
+            ]
+        },
+        {
+            "Title": "Explore Hyderabad",
+            "Description": "A pet project to guide tourists with places to visit in Hyderabad.",
+            "ghLink": "https://github.com/SaiKiran2527/hydexplore",
+            "demoLink": "https://github.com/SaiKiran2527/hydexplore",
+            "Technologies": [
+                "HTML",
+                "SCSS",
+                "CSS",
+                "Javascript",
+                "PHP"
+            ]
+        },
+        {
+            "Title": "Quiz App",
+            "Description": "A single page quiz app that has a minimal design. Integrated the app with Firebase Auth for user authentication.",
+            "ghLink": "https://github.com/SaiKiran2527/MyQuizApp",
+            "demoLink": "http://my-quiz-app-flax.vercel.app/",
+            "Technologies": [
+                "Angular",
+                "SASS",
+                "TypeScript",
+                "Firebase Auth"
+            ]
+        },
+        {
+            "Title": "Audio-to-Text",
+            "Description": "A basic python Flask project, that coverts audio into textual format.",
+            "ghLink": "https://github.com/SaiKiran2527/audio-to-text",
+            "demoLink": "https://github.com/SaiKiran2527/audio-to-text",
+            "Technologies": [
+                "Python",
+                "Flask",
+                "speech_recognition library"
+            ]
+        }
+    ],
+    "Contact.Pretitle": "What’s Next",
+    "Contact.Title": "Get in touch!",
+    "Contact.Content": "I will be happy to receive your contact if you want to talk about new opportunities. Write to me, and I will reply as soon as I read your message. Thank you for you time and effort, for going through my portfolio :)",
+    "Contact.Btn": "Say Hello"
+}
