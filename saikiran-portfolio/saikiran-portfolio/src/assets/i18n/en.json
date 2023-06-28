@@ -144,7 +144,7 @@
             "imgs": [
                 "assets/images/Car-Rental.jpeg"
             ],
-            "demoLink": "https://profile.needlemusic.co/bub",
+            
             "Technologies": [
                 "HTML",
                 "CSS",
@@ -162,8 +162,8 @@
         {
             "Title": "My portfolio",
             "Description": "A portfolio to help you understand my stack-set and background.",
-            "ghLink": "https://github.com/SaiKiran2527/car-rental-scheme",
-            "demoLink": "https://github.com/SaiKiran2527/car-rental-scheme",
+            "ghLink": "https://github.com/SaiKiran2527/Saikiran-Portfolio",
+            "demoLink": "https://saikiran-portfolio.vercel.app/",
             "Technologies": [
                 "Angular",
                 "Material"
