@@ -11,7 +11,7 @@
         }
         .proyect-info-right {
             width: 50%;
-            margin-left: -57px;
+            margin-left: 0px;
             margin-right: 0px;
             display: table;
         }
@@ -80,13 +80,13 @@
 }
 
 .owl-carousel-o{
-    width: 600px;
+    width: 500px;
 }
 .img-feature-proyect-container {
     display:  none;
 }
 
-@media (min-width: 768px) and (max-width: 1300px) {
+@media (min-width: 768px) and (max-width: 1200px) {
     .owl-carousel-o{
         display: none;
     }
